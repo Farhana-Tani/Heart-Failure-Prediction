@@ -566,6 +566,7 @@ Interested in:
 - Computer Vision
 - Healthcare AI
 - Computational Physics
+- Computational Biophysics
 - AI Engineering
 
 ---
