@@ -1,9 +1,61 @@
-.venv/
+# Python cache
 __pycache__/
-.pytest_cache/
 *.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables / secrets
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
 .streamlit/secrets.toml
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Ruff
+.ruff_cache/
+
+# Project-specific files
 data/*.csv
 models/*.joblib
 reports/*.png
-
