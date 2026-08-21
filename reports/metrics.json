@@ -1,0 +1,45 @@
+{
+  "selected_model": "logistic_regression",
+  "decision_threshold": 0.23999999999999994,
+  "test_roc_auc": 0.7336601307189543,
+  "test_average_precision": 0.540662471453377,
+  "test_precision": 0.5128205128205128,
+  "test_recall": 0.8333333333333334,
+  "test_f1": 0.6349206349206349,
+  "confusion_matrix": [
+    [
+      32,
+      19
+    ],
+    [
+      4,
+      20
+    ]
+  ],
+  "training_rows": 224,
+  "test_rows": 75,
+  "features": [
+    "age",
+    "anaemia",
+    "creatinine_phosphokinase",
+    "diabetes",
+    "ejection_fraction",
+    "high_blood_pressure",
+    "platelets",
+    "serum_creatinine",
+    "serum_sodium",
+    "sex",
+    "smoking"
+  ],
+  "trained_at_utc": "2026-08-21T17:19:40.731872+00:00",
+  "candidate_cv_scores": {
+    "logistic_regression": {
+      "roc_auc": 0.7444261695906431,
+      "average_precision": 0.6030777808219988
+    },
+    "random_forest": {
+      "roc_auc": 0.7407711988304094,
+      "average_precision": 0.6042231624638853
+    }
+  }
+}
