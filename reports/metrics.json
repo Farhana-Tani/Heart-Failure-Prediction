@@ -31,7 +31,7 @@
     "sex",
     "smoking"
   ],
-  "trained_at_utc": "2026-08-21T17:19:40.731872+00:00",
+  "trained_at_utc": "2026-08-21T19:42:49.746613+00:00",
   "candidate_cv_scores": {
     "logistic_regression": {
       "roc_auc": 0.7444261695906431,

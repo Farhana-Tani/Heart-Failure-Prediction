@@ -57,5 +57,5 @@ tempCodeRunnerFile.py
 
 # Project-specific files
 data/*.csv
-models/*.joblib
+models/# *.joblib
 reports/*.png
